@@ -122,7 +122,6 @@ $$
 
 
 
-
 #### Optimal Policy and Value Function
 
 
@@ -180,8 +179,6 @@ A paradigm for solving problems by breaking into subproblems
 
 
 ### When to use DP
-
-
 
 - Optimal substructure
   - Bellman Optimality Equation
@@ -425,7 +422,8 @@ Bellman Expectation Operator
     \begin{aligned}\left.\left|T^{\pi}(u)-T^{\pi}(v)\right|\right|_{\infty} &=\left\|\left(\mathcal{R}^{\pi}+\gamma \mathcal{P}^{\pi} u\right)-\left(\mathcal{R}^{\pi}+\gamma \mathcal{P}^{\pi} v\right)\right\|_{\infty} \\ &=\left\|\gamma \mathcal{P}^{\pi}(u-v)\right\|_{\infty} \\ & \leq\left\|\gamma \mathcal{P}^{\pi}\right\| u-v\left\|_{\infty}\right\|_{\infty} \\ & \leq \gamma\|u-v\|_{\infty} \end{aligned}
     $$
 
-- 
+  
+
 
 
 
