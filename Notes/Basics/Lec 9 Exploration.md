@@ -109,8 +109,7 @@ $$
 \begin{array}{l}c>0 \\ d=\min _{a \mid \Delta_{a}>0} \Delta_{i} \\ \epsilon_{t}=\min \left\{1, \frac{c|\mathcal{A}|}{d^{2} t}\right\}\end{array}
 $$
 
-	- asymptotic log total regret
-	- require knowledge of gaps
+
 
 
 

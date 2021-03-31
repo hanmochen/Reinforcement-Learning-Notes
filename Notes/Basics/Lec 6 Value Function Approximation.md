@@ -1,4 +1,4 @@
-# Lec 6 Value Function Approximation
+
 
 [toc]
 
@@ -87,7 +87,6 @@ $$
   \mathbf{x}(S)=\left(\begin{array}{c}\mathbf{x}_{1}(S) \\ \vdots \\ \mathbf{x}_{n}(S)\end{array}\right)
   $$
   
-
 - For example
   - Distance of robot from landmarks
   - Trends in the stock market
@@ -281,7 +280,6 @@ DQN uses experience replay and fixed Q-targets
   \mathbf{w}=\left(\sum_{t=1}^{T} \mathbf{x}\left(s_{t}\right) \mathbf{x}\left(s_{t}\right)^{\top}\right)^{-1} \sum_{t=1}^{T} \mathbf{x}\left(s_{t}\right) v_{t}^{\pi}
   $$
   
-
 - Direct solution is $O(N^3)$, incremental solution time is $O(N^2)$ using Shermann-Morrison
 - LSMC: $\mathbf{w}=\left(\sum_{t=1}^{T} \mathbf{x}\left(S_{t}\right) \mathbf{x}\left(S_{t}\right)^{\top}\right)^{-1} \sum_{t=1}^{T} \mathbf{x}\left(S_{t}\right) G_{t}$
 - LSTD: $\mathbf{w}=\left(\sum_{t=1}^{T} \mathbf{x}\left(S_{t}\right)\left(\mathbf{x}\left(S_{t}\right)-\gamma \mathbf{x}\left(S_{t+1}\right)\right)^{\top}\right)^{-1} \sum_{t=1}^{T} \mathbf{x}\left(S_{t}\right) R_{t+1}$

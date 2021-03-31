@@ -111,7 +111,7 @@ $$
 **Dyna**
 
 - Learn a model from real experience
-- Learn and plan value function and policy from read and simulated experience
+- Learn and plan value function and policy from real and simulated experience
 
 
 
@@ -196,7 +196,6 @@ $$
   Q(s, a)=\frac{1}{N(s, a)} \sum_{k=1}^{K} \sum_{u=t}^{T} \mathbf{1}\left(S_{u}, A_{u}=s, a\right) G_{u} \stackrel{P}{\rightarrow} q_{\pi}(s, a)
   $$
   
-
 - In MCTS, the simulation policy $π$ improves
 - Each simulation consists of two phases
   - Tree policy: pick actions to maximize $Q(s,a)$

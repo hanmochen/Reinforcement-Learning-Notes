@@ -173,7 +173,7 @@ $$
 $$
 q_{t}^{\lambda}=(1-\lambda) \sum_{n=1}^{\infty} \lambda^{n-1} q_{t}^{(n)}
 $$
- 
+
 
 **Forward View Sarsa(λ)**
 $$
@@ -242,7 +242,7 @@ $$
 
   
 
-**Importance Sampling for off-policy Monte-Carlo**
+**Importance Sampling for off-policy TD**
 
 - Use TD targets generated from μ to evaluate π 
 
