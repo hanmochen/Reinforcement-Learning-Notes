@@ -112,8 +112,9 @@ $$
 ### Optimal Policy and Value Function
 
 - Define **Optimal**
-  - Deﬁne a partial ordering over policies $π>π'$ if $v_{π}(s) \geqslant v_{π'}(s),\forall s \in \mathcal{S}$ 
-
+  
+- Deﬁne a partial ordering over policies $π>π'$ if $v_{π}(s) \geqslant v_{π'}(s),\forall s \in \mathcal{S}$ 
+  
 - Theorem: For any Markov Decision Process
 
   - There exists an optimal policy

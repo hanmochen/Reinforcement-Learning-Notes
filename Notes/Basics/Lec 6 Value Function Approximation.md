@@ -1,4 +1,4 @@
-
+# Lec 6 Value Function Approximation
 
 [toc]
 
